@@ -60,7 +60,16 @@ module.exports = {
       { text: '资源', link: '/pages/db78e2/' },
       { text: '案例', link: '/pages/5d571c/' },
       { text: '问答', link: '/pages/9cc27d/' },
-      { text: '你好', link: '/pages/4dc56e/'}
+      { 
+        text: '网关', link: '/pages/6fa602/',items:[
+          {text: 'CrowdOS-Gateway', link: '/pages/6fa602/'},
+          {text: 'Gateway-Core', link: '/pages/d5f7f7/'},
+          {text: 'Gateway-Assist', link: '/pages/242e07/'},
+          {text: 'Gateway-Center', link: '/pages/1ca2d6/'},
+          {text: 'Gateway-SDK', link: '/pages/a08d88/'},
+          {text: 'Gateway-Engine', link: '/pages/355cd2/'},
+        ]
+      }
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
