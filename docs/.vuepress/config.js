@@ -24,50 +24,61 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '指南', link: '/pages/a2f161/', items: [
-          { text: '主题初衷与诞生', link: '/pages/52d5c3/' },
-          { text: '介绍', link: '/pages/a2f161/' },
-          { text: '快速上手', link: '/pages/793dcb/' },
-          { text: '目录结构', link: '/pages/2f674a/' },
-          { text: '核心配置和约定', link: '/pages/33d574/' },
-          { text: '自动生成front matter', link: '/pages/088c16/' },
-          { text: 'Markdown 容器', link: '/pages/d0d7eb/' },
-          { text: 'Markdown 中使用组件', link: '/pages/197691/' },
+        text: '个人项目', link: '/pages/6fa602/',items:[
+          {text: 'CrowdOS-Gateway', link: '/pages/6fa602/'},
+          {text: 'CrowdOS-Lottery', link: '/pages/d5f7f7/'},
+          {text: '智能分类垃圾桶', link: '/pages/242e07/'},
+        ]
+      },
+      {
+        text: 'Java', link: '/pages/535161/', items: [
+          {text: 'Java基础', link: '/pages/535161/'},
+          {text: 'Java集合', link: '/pages/fc115a/'},
+          {text: 'Java并发', link: '/pages/0417d2/'},
+          {text: 'JVM', link: '/pages/fb25cc/'}
+        ]
+      },
+      {
+        text: '数据库', items: [
           {
-            text: '相关文章', items: [
-              { text: '使目录栏支持h2~h6标题', link: '/pages/8dfab5/' },
-              { text: '如何让你的笔记更有表现力', link: '/pages/dd027d/' },
-              { text: '批量操作front matter工具', link: '/pages/2b8e22/' },
-              { text: '部署', link: '/pages/0fc1d2/' },
-              { text: '关于写文章和H1标题', link: '/pages/9ae0bd/' },
-              { text: '关于博客搭建与管理', link: '/pages/26997d/' },
-              { text: '在线编辑和新增文章的方法', link: '/pages/c5a54d/' },
+            text: '关系型数据库', items: [
+              { text: 'MySQL', link: '/pages/437754/' },
+            ]
+          },
+          {
+            text: '非关系型数据库', items: [
+              { text: 'Redis', link: '/pages/7cb503/' },
             ]
           }
         ]
       },
       {
-        text: '配置', link: '/pages/a20ce8/', items: [
-          { text: '主题配置', link: '/pages/a20ce8/' },
-          { text: '首页配置', link: '/pages/f14bdb/' },
-          { text: 'front matter配置', link: '/pages/3216b0/' },
-          { text: '目录页配置', link: '/pages/54651a/' },
-          { text: '添加摘要', link: '/pages/1cc523/' },
-          { text: '修改主题颜色和样式', link: '/pages/f51918/' },
-          { text: '评论栏', link: '/pages/ce175c/' },
+        text: '常用框架', link: '/pages/a2f161/', items: [
+          {
+            text: 'Spring', link: '/pages/4a640f/'
+          },
+          {
+            text: 'SpringBoot', link: '/pages/93726f/'
+          },
+          {
+            text: 'Netty', link: '/pages/66c460/' 
+          }
         ]
       },
-      { text: '资源', link: '/pages/db78e2/' },
-      { text: '案例', link: '/pages/5d571c/' },
-      { text: '问答', link: '/pages/9cc27d/' },
       {
-        text: '网关', link: '/pages/6fa602/',items:[
-          {text: 'CrowdOS-Gateway', link: '/pages/6fa602/'},
-          {text: 'Gateway-Core', link: '/pages/d5f7f7/'},
-          {text: 'Gateway-Assist', link: '/pages/242e07/'},
-          {text: 'Gateway-Center', link: '/pages/1ca2d6/'},
-          {text: 'Gateway-SDK', link: '/pages/a08d88/'},
-          {text: 'Gateway-Engine', link: '/pages/355cd2/'},
+        text: '设计模式',  link: '/pages/8eacd8/',items: [
+          { text: '工厂模式', link: '/pages/8eacd8/' },
+          { text: '建造者模式', link: '/pages/2fdfb5/' },
+          { text: '策略模式', link: '/pages/52468f/' },
+          { text: '责任链模式', link: '/pages/e96729/' },
+          { text: '单例模式', link: '/pages/7709cf/' },
+        ]
+      },
+      {
+        text: '个人思考', link: '/pages/a8c496/',items:[
+          {text: '生活哲学的为所当为', link: '/pages/a8c496/'},
+          {text: '生活哲学的顺其自然', link: '/pages/9953f2/'},
+          {text: '知行合一的重要性', link: '/pages/7a4b1e/'},
         ]
       },
     ],
