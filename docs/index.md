@@ -8,13 +8,13 @@ actionLink: /pages/04ba91/
 bannerBg: none #/img/mylogo.jpg # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
-  - title: 群智 API 网关组件
-    link: /pages/6fa602/
-    details: 针对于群智感知场景设计的API网关，并作为CrowdOS的流入输入出口
-  - title: Lottery激励服务应用
+  - title: Lottery激励服务应用🔎
     link: /pages/d5f7f7/
     details: CrowdOS系统下的应用开发，用于支持群智感知计算中的激励机制，支持高并发和分布式
-  - title: 创业项目：智能分类垃圾桶
+  - title: 群智 API 网关组件(原子开源基金会项目集)💖
+    link: /pages/6fa602/
+    details: 参考于多家公司开源的网关，独自研发针对于群智感知场景设计的API网关，并作为CrowdOS的高并发流入输入出口，并实现了高可用，高扩展。
+  - title: 创业项目：智能分类垃圾桶🔨
     link: /pages/242e07/
     details: 采用异步处理方式，实现体验0延迟的效果，体积小，并得到电视台采访和实地验证
 
@@ -87,7 +87,7 @@ postList: none
 
 
 
-如果您想对我更深的了解，可进入[个人介绍]()中查看，
+如果您想对我更深的了解，可进入[个人介绍]()中查看👀，
 
 我分别担任了项目负责人和后端开发工作，如果想更深入的了解，请跳转至指定网页：
 
