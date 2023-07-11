@@ -54,7 +54,7 @@ module.exports = {
         ]
       },
       {
-        text: '常用框架', link: '/pages/a2f161/', items: [
+        text: '常用框架', link: '/pages/4a640f/', items: [
           {
             text: 'Spring', link: '/pages/4a640f/'
           },
