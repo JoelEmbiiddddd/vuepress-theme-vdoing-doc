@@ -1,19 +1,22 @@
 ---
 home: true
-heroImage: /img/logo.png
-heroText: 黄立鑫的个人主页
-tagline: 🚀一款简洁高效的VuePress 知识管理&博客 主题
+heroImage: /img/mylogo.jpg
+heroText: 黄立鑫
+tagline: ✨欢迎来到我的主页 Stay Hungry, Stay Foolish
 actionText: 个人介绍 →
-actionLink: /pages/a2f161/
-bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
+actionLink: /pages/04ba91/
+bannerBg: none #/img/mylogo.jpg # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
-  - title: 测试一下
-    details: 包含三种典型的知识管理形态：结构化、碎片化、体系化。轻松打造属于你自己的知识管理平台
-  - title: 简洁高效
-    details: 以 Markdown 为中心的项目结构，内置自动化工具，以更少的配置完成更多的事。配合多维索引快速定位每个知识点
-  - title: 沉浸式阅读
-    details: 专为阅读设计的UI，配合多种颜色模式、可关闭的侧边栏和导航栏，带给你一种沉浸式阅读体验
+  - title: 群智 API 网关组件
+    link: /pages/6fa602/
+    details: 针对于群智感知场景设计的API网关，并作为CrowdOS的流入输入出口
+  - title: Lottery激励服务应用
+    link: /pages/d5f7f7/
+    details: CrowdOS系统下的应用开发，用于支持群智感知计算中的激励机制，支持高并发和分布式
+  - title: 创业项目：智能分类垃圾桶
+    link: /pages/242e07/
+    details: 采用异步处理方式，实现体验0延迟的效果，体积小，并得到电视台采访和实地验证
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none
@@ -48,9 +51,9 @@ postList: none
 <p align="center">
   <a href="http://apifox.cn/a103xugaoyi" target="_blank"><img src="https://cdn.staticaly.com/gh/xugaoyi/blog-gitalk-comment@master/img/441669861566_.2bedplbm21hc.jpg" alt="npm" class="no-zoom" style="width: 300px;border-radius: 2px;"></a>
 </p> -->
-
-## 🎖特别用户
+<!-- ## 🎖特别用户
 ::: cardList 3
+
 ```yaml
 # - name: OpenHarmony
 #   desc: 开放原子开源基金会
@@ -72,28 +75,65 @@ postList: none
   link: http://www.vform666.com
   bgColor: '#f1f1f1'
   textColor: '#2A3344'
+
 ```
-:::
+::: -->
 
 <br/>
 
-## 🎉个人介绍
-* `v1.12.x`
-  - 新增配置项`pageStyle`，用于切换页面的风格样式，可选`卡片`、 `线条`风格。[详情](/pages/a20ce8/#pagestyle)
-  - 新增配置项`bodyBgImgInterval`，用于在设置了多张背景大图时修改大图切换的时间间隔。[详情](/pages/a20ce8/#bodybgimginterval)
-  - 新增配置项`defaultMode`，用于修改默认外观模式(v1.12.3)。[详情](/pages/a20ce8/#defaultmode)
-* `v1.11.x`：新增配置项`extendFrontmatter`，用于扩展自动生成front matter。[详情](/pages/a20ce8/#extendfrontmatter)
-* `v1.10.x`：新增右侧目录栏对h2~h6标题的适配，并优化了UI，[详情](/pages/8dfab5/)。
-* `v1.9.x`：新增配置文件对TypeScript的支持，参考[config.ts](https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/docs/.vuepress/config.ts)。新增[标题标记](/pages/3216b0/#titletag)。
-* `v1.8.x`：新增 Markdown中使用的组件：[代码块选项卡](/pages/197691/#代码块选项卡) 。
-* `v1.7.x`：新增 [自定义html模块](/pages/a20ce8/#自定义html模块) 配置，可用于插入广告模块。
-* `v1.6.x`：支持[`四级目录`](/pages/33d574/#级别说明)，提高[站点结构](/pages/33d574/#级别说明)可塑性。
-* `v1.5.x`：新增[`笔记`容器](/pages/d0d7eb/)，轻松插入笔记框。
-* `v1.4.x`：新增了文章内容区块的 [背景底纹配置](/pages/a20ce8/#文章内容块的背景底纹)，让你的文章看起来像笔记本的风格~
-* `v1.2.x`：这个版本对整体的UI细节做了很多优化，比如标签栏和分类栏等
-* `v1.1.x`：从这个版本开始主题新增`超好用`、`高颜值`的Markdown容器，快去 [体验](/pages/d0d7eb/) 吧~
+## 📚Blog
 
-更多上新请查阅：[**更新日志**](https://github.com/xugaoyi/vuepress-theme-vdoing/releases)
+这是一个兼具博客文章、知识管理、文档查找的个人网站，主要内容是 Java 后端技术。如果你喜欢这个博客&主题欢迎到[GitHub (opens new window)](https://github.com/JoelEmbiiddddd))点个Star，或者交换[友链](https://huanglixin.netlify.app/) ( •̀ ω •́ )✧
+
+
+
+如果您想对我更深的了解，可进入[个人介绍]()中查看，
+
+我分别担任了项目负责人和后端开发工作，如果想更深入的了解，请跳转至指定网页：
+
+- 🌅   [***CrowdOS-Gateway 群智API网关组件***](pages/6fa602/)
+- 🔨   [**Lottery- 群智感知场景的激励服务应用**](pages/d5f7f7/)
+- 🍖   [**手写RPC**](pages/8d4c04/)
+- 📙    [**创业项目：智能分类垃圾桶**](pages/242e07/)
+
+
+
+## 🎉About Me
+
+
+欢迎您来到我的个人主页
+
+你好，我叫黄立鑫，目前就读于西北工业大学计算机学院研二硕士，由长江学者、杰青获得者於志文教授、新加坡国立大学张盈教授共同指导研究。本科期间，我就读于浙江工业大学计算机学院物联网工程专业，以专业第一🎖的身份保送至西北工业大学计算机，在校期间以队长的身份带领团队获得过多个大学生比赛。
+
+
+
+在自己所属的领域努力，尽可能地达到最好，找到**Java后端开发**的岗位，在工作岗位上不断深耕，期望最终成为团队Leader和技术大牛！
+
+- 后端小菜鸡🐤 努力变强中
+
+- NWPU 学生
+
+- 曾梦想用技术创业并付出实践⚡️的的平凡人
+
+- 志在深耕技术
+
+  
+
+### 技能
+
+- 熟悉Java, SpringBoot, MySQL, Redis, 
+- 了解 Linux、windows、macOS 的开关机方式
+- 精通 Git 的 pull 和 push，并注册了 GitHub 帐号刷了一些 star
+
+
+
+## ✉️ 联系
+
+- WeChat or QQ: [19377716008](tencent://message/?uin=undefined&Site=&Menu=yes)
+- Email: [ishuanglx@163.com](mailto:ishuanglx@163.com)
+- GitHub: [JoelEmbiiddddd (黄立鑫（LiXin Huang）) (github.com)](https://github.com/JoelEmbiiddddd)
+
+
 
 <br/>
 

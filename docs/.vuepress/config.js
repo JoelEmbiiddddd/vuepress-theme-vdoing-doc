@@ -7,11 +7,11 @@ module.exports = {
   theme: 'vdoing', // 使用依赖包主题
   // theme: require.resolve('../../vdoing'), // 使用本地主题 (先将vdoing主题文件下载到本地：https://github.com/xugaoyi/vuepress-theme-vdoing)
 
-  title: "vuepress-theme-vdoing",
-  description: '一个基于VuePress的 知识管理&博客 主题',
+  title: "黄立鑫的个人主页",
+  description: 'Just Do it',
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
-    ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
+    ['link', { rel: 'icon', href: '/img/mylogo.ico' }], //favicons，资源放在public文件夹
     ['meta', { name: 'keywords', content: 'vuepress,theme,blog,vdoing' }],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
 
@@ -28,6 +28,7 @@ module.exports = {
           {text: 'CrowdOS-Gateway', link: '/pages/6fa602/'},
           {text: 'CrowdOS-Lottery', link: '/pages/d5f7f7/'},
           {text: '智能分类垃圾桶', link: '/pages/242e07/'},
+          {text: '手写RPC框架',link: '/pages/8d4c04/'}
         ]
       },
       {
@@ -81,10 +82,13 @@ module.exports = {
           {text: '知行合一的重要性', link: '/pages/7a4b1e/'},
         ]
       },
+      {
+        text: '个人介绍',link:'/pages/04ba91/'
+      }
     ],
     sidebarDepth: 3, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
-    repo: 'xugaoyi/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
+    repo: 'JoelEmbiiddddd', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
 
@@ -124,12 +128,12 @@ module.exports = {
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:894072666@qq.com'
+          link: 'mailto:ishuanglx@163.com'
         },
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/xugaoyi'
+          link: 'https://github.com/JoelEmbiiddddd'
         },
         {
           iconClass: 'icon-erji',
