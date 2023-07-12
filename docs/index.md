@@ -11,7 +11,7 @@ features: # 可选的
   - title: Lottery激励服务应用🔎
     link: /pages/d5f7f7/
     details: CrowdOS系统下的应用开发，用于支持群智感知计算中的激励机制，支持高并发和分布式
-  - title: 群智 API 网关组件(原子开源基金会项目集)💖
+  - title: 群智 API 网关组件(开放原子开源基金会项目集)💖
     link: /pages/6fa602/
     details: 参考于多家公司开源的网关，独自研发针对于群智感知场景设计的API网关，并作为CrowdOS的高并发流入输入出口，并实现了高可用，高扩展。
   - title: 创业项目：智能分类垃圾桶🔨
