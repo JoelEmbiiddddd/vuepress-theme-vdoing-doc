@@ -121,9 +121,10 @@ postList: none
 
 ### 技能
 
-- 熟悉Java, SpringBoot, MySQL, Redis, 
-- 了解 Linux、windows、macOS 的开关机方式
-- 精通 Git 的 pull 和 push，并注册了 GitHub 帐号刷了一些 star
+- 熟悉Java, SpringBoot, MySQL, Redis
+- 熟悉Dubbo和Netty的原理
+- 熟悉消息队列如kafka的使用方法和原理
+- 对分布式较为感兴趣
 
 
 
