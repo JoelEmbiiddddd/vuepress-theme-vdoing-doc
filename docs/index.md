@@ -122,9 +122,9 @@ postList: none
 ### 技能
 
 - 熟悉Java, SpringBoot, MySQL, Redis
-- 熟悉Dubbo和Netty的原理
+- 熟悉Netty的原理
 - 熟悉消息队列如kafka的使用方法和原理
-- 对分布式较为感兴趣
+- 对分布式和Dubbo较为感兴趣，正在努力学习中！
 
 
 
